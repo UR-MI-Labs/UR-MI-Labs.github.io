@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+ Diese Seite ist ein Blog, welcher im Rahmen des VR4 Roomware Projektes angelegt wurde.
+ Das VR4 ist ein Labor der Medieninformatik an der Universität Regensburg. Zur Aufwertung des Raumes sollen im Zuge des genannten Projektes das Arbeitsumfeld im Raum verbessert werden.
+ Alle Updates und großen Änderungen im Laufe des Projektes werden hier dokumentiert.
 
 
-[jekyll-organization]: https://github.com/jekyll
+ GitHub: [UR-MI-Labs](https://github.com/UR-MI-Labs)
