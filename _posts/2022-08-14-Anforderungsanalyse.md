@@ -9,7 +9,7 @@ categories: project update
 Vor der eigentlichen Anforderungsanalyse ist es natürlich wichtig, sich ersteinemal im klaren zu sein, was der Untersuchungsgegenstand ist. In unserem Falle ist dies der Versuchsraum-4 (VR-4) der Universität Regensburg.
 VR-4 befindet sich in der TechBase und ist in drei Bereiche aufgeteilt.
 
-![Laborübersicht](/_assets/2022-08-14-lab.jpg)
+![Laborübersicht](/assets/2022-08-14-lab.jpg)
 
 1. Labor
 Hier befinden sich hauptsächlich Arbeitsbereiche für Studierende, Dozierende und Labornutzer:innen für ihre jeweiligen Projekte (Bachelor-, Master-, Forschungsarbeiten o.ä.).
@@ -40,7 +40,7 @@ Die Zufriedenheit in diesen Bereichen konnte auf einer Likert-Skala zwischen 1 (
 
 Die Ergebnisse der Umfrage ergab, dass die Abläufe bezüglich des Labors bereits gut ablaufen. Da der Reservierungsplan zwischenzeitlich erneuert wurde, sind in der Umfrage Zufriedenheit und Antworten u.a. noch mit dem alten System zusammenhängend.
 
-![Onlineumfrage-Ergebnis](/_assets/2022-08-14-umfrage_ergebnis.jpg)
+![Onlineumfrage-Ergebnis](/assets/2022-08-14-umfrage_ergebnis.jpg)
 
 ### Experteninterviews
 
@@ -61,7 +61,7 @@ Dabei konnten wir 8 Codegruppen feststellen:
 7. Demos / Vorführbarkeit
 8. IOT
 
-![Laborübersicht](/_assets/2022-08-14-Codes.jpg)
+![Laborübersicht](/assets/2022-08-14-Codes.jpg)
 
 ## Ergebnisse
 
@@ -103,4 +103,4 @@ Baseline für die Sub-Projekte (Frameworks, Software-Environments, etc.)
 *ab Mitte August*
 Start der Sub-Projekte (Hardware und/oder Software-Projekte)
 
-![Laborübersicht](/_assets/2022-08-14-zeitplan.jpg)
+![Laborübersicht](/assets/2022-08-14-zeitplan.jpg)
