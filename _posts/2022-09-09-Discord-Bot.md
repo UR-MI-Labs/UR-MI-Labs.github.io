@@ -28,31 +28,31 @@ ___
 
 Der Bot wird in diesem Fall mit JavaScript implementiert. Dafür müssen einige Dinge installiert werden:
 
-- *Node.js* 
+- **Node.js** 
     - (mind. Node v16.9.0 oder höher)
-- *discord.js*
+- **discord.js**
     - für die Interaktion mit der Discord API 
-    - 'npm install discord.js'
-- *discordjs/rest* 
+    `npm install discord.js`
+- **discordjs/rest** 
     - einfacher REST manager für discord.js
-    - 'npm install @discordjs/rest'
-- *dotenv* 
-    - um '.env'-Files zu nutzen
-    -'npm install dotenv'
+    `npm install @discordjs/rest`
+- **dotenv**
+    - um `.env`-Files zu nutzen
+    `npm install dotenv`
 
 ____
 
 ### Files
 
-*.env*
-'''
+**.env**
+```
 TOKEN="token-here"
-'''
+```
 
-*bot.js*
+**bot.js**
 In diesem File loggt sich der Bot ein und solange das Skript läuft, bleibt der Bot online.
 
-''' javascript
+``` javascript
 // require everything necessary
 const { Client, GatewayIntentBits } = require('discord.js');
 require('dotenv').config(); 
@@ -78,7 +78,7 @@ client.on('interactionCreate', async interaction => {
 
 // login with token
 client.login(process.env.TOKEN);
-'''
+```
 
 ____
 
@@ -86,6 +86,6 @@ ____
 
 Hinweis: das sind nur erste Testläufe, keine endgültige Funktionsweise des Bots!
 
-Mit 'node bot.js' den Bot online bringen und in einem Discord-Chat den Befehl '/ping' eingeben.
+Mit `node bot.js` den Bot online bringen und in einem Discord-Chat den Befehl `/ping `eingeben.
 
 ![Ping-Pong](/assets/2022-09-09-bot_ping.gif)
