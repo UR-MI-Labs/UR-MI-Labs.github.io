@@ -7,7 +7,7 @@ categories: project update homeassitant esp32
 # Home Assistant OS
 
 Nach langem Bemühen Home Assistant über Docker Container laufen zu lassen, wurde heute umgeschwenkt:
-Anstelle eines Linuxserver wird Home Assistant OS verwendet um weitere Verzögerungen zu vermeiden. Home Assistant OS kann leicht und schnell eingerichtet werden und ist sehr gut dokumentiert. In dieser Version können auch problemlos zusetzliche Addons, wie NodeRed oder ESPHome leicht hinzugefügt werden und die Administration ist gemeinhin auch übersichtlicher.
+Anstelle eines Linuxserver wird Home Assistant OS verwendet um weitere Verzögerungen zu vermeiden. Home Assistant OS kann leicht und schnell eingerichtet werden und ist sehr gut dokumentiert. In dieser Version können auch problemlos zusätzliche Addons, wie [NodeRed](https://nodered.org/) oder [ESPHome](https://esphome.io/) leicht hinzugefügt werden und die Administration ist gemeinhin auch übersichtlicher.
 IoT-Geräte wie Microcontroller können so auch schneller und flexibler mit YAML Konfigurationsdateien integriet werden. Somit steigert sich die Effektivität und Produktivität des Projektes, sodass das die Deadline wieder in greifbare Nähe rückt.
 
 ### ESP8266 on-Board LED als Entity
