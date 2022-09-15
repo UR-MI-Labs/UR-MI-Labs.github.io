@@ -18,6 +18,7 @@ Hier ist ein einfaches Beispiel einer Entität in Home Assistant.
 
 #### Zugehörige YAML Konfiguration des Microcontrollers:
 
+>```yaml
 >esphome:
 >  name: test2
 >
@@ -72,9 +73,9 @@ Hier ist ein einfaches Beispiel einer Entität in Home Assistant.
 >    pin:
 >      number: D0
 >      inverted: true
->
+>```
 
 ### Ausblick
 
 Mithilfe dieses einfachen Beispiels lässt sich in den nächsten Tagen das gewünschte Moodlighting implementieren. Zudem wird ESPHome noch für einige andere kleinere IoT Anwedungen nützlich werden.
-Einlesen zum Automatisieren einiger IoT Abläufe erfolgt momentan noch. 
+Einlesen zum Automatisieren einiger IoT Abläufe erfolgt momentan noch.
