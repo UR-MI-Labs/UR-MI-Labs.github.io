@@ -20,19 +20,19 @@ Hier ist ein einfaches Beispiel einer Entität in Home Assistant.
 
 >```yaml
 >light:
->>  - platform: monochromatic
->>    name: "OnBoard LED"
->>    output: onboard_output
->>    effects:
->>      # Customize parameters
->>      - random:
->>          name: "My Slow Random Effect"
->>          transition_length: 30s
->>          update_interval: 30s
->>      - random:
->>          name: "My Fast Random Effect"
->>          transition_length: 1s
->>          update_interval: 2s
+>  - platform: monochromatic
+>    name: "OnBoard LED"
+>    output: onboard_output
+>    effects:
+>      # Customize parameters
+>      - random:
+>          name: "My Slow Random Effect"
+>          transition_length: 30s
+>          update_interval: 30s
+>      - random:
+>          name: "My Fast Random Effect"
+>          transition_length: 1s
+>          update_interval: 2s
 >  
 >output:
 >>  - id: onboard_output
