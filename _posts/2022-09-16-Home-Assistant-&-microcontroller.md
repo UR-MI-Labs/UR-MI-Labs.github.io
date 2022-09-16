@@ -24,7 +24,6 @@ Hier ist ein einfaches Beispiel einer Entität in Home Assistant.
 >    name: "OnBoard LED"
 >    output: onboard_output
 >    effects:
->      # Customize parameters
 >      - random:
 >          name: "My Slow Random Effect"
 >          transition_length: 30s
@@ -35,11 +34,11 @@ Hier ist ein einfaches Beispiel einer Entität in Home Assistant.
 >          update_interval: 2s
 >  
 >output:
->>  - id: onboard_output
->>    platform: esp8266_pwm
->>    pin:
->>      number: D0
->>      inverted: true
+>  - id: onboard_output
+>    platform: esp8266_pwm
+>    pin:
+>      number: D0
+>      inverted: true
 >```
 
 ### Ausblick
