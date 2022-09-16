@@ -16,7 +16,7 @@ IoT-Geräte wie Microcontroller können so auch schneller und flexibler mit YAML
 
 Hier ist ein einfaches Beispiel einer Entität in Home Assistant.
 
-#### Zugehörige YAML Konfiguration des Microcontrollers:
+#### Zugehöriger Snipet aus der YAML Konfiguration des Microcontrollers:
 
 >```yaml
 >light:
