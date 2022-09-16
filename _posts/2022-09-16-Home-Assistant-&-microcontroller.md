@@ -19,60 +19,27 @@ Hier ist ein einfaches Beispiel einer Entität in Home Assistant.
 #### Zugehörige YAML Konfiguration des Microcontrollers:
 
 >```yaml
->esphome:
->  name: test2
->
->esp8266:
->  board: nodemcuv2
->
-># Enable logging
->logger:
->
-># Enable Home Assistant API
->api:
->  encryption:
->    key: "X36xdx8DIjdnVx/0bul1CNoILOU+RRaKt7kapBu/cbU="
->
->ota:
->  password: "a215b73aa30e64b4da7e2f055bd5ddab"
->
->wifi:
->  networks:
->  - ssid: !secret wifi_ssid
->    password: !secret wifi_password
->  - ssid: !secret wifi_ssid2
->    password: !secret wifi_password2
->
->  # Enable fallback hotspot (captive portal) in case wifi connection fails
->  ap:
->    ssid: "Test2 Fallback Hotspot"
->    password: "MsmCSHXnG0wk"
->
->captive_portal:
->    
->    
->
 >light:
->  - platform: monochromatic
->    name: "OnBoard LED"
->    output: onboard_output
->    effects:
->      # Customize parameters
->      - random:
->          name: "My Slow Random Effect"
->          transition_length: 30s
->          update_interval: 30s
->      - random:
->          name: "My Fast Random Effect"
->          transition_length: 1s
->          update_interval: 2s
+>>  - platform: monochromatic
+>>    name: "OnBoard LED"
+>>    output: onboard_output
+>>    effects:
+>>      # Customize parameters
+>>      - random:
+>>          name: "My Slow Random Effect"
+>>          transition_length: 30s
+>>          update_interval: 30s
+>>      - random:
+>>          name: "My Fast Random Effect"
+>>          transition_length: 1s
+>>          update_interval: 2s
 >  
 >output:
->  - id: onboard_output
->    platform: esp8266_pwm
->    pin:
->      number: D0
->      inverted: true
+>>  - id: onboard_output
+>>    platform: esp8266_pwm
+>>    pin:
+>>      number: D0
+>>      inverted: true
 >```
 
 ### Ausblick
